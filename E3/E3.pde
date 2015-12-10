@@ -57,16 +57,16 @@ void keyPressed() {
   if (key == CODED ) {
     switch(keyCode) {
     case UP:
-      // 小雞移動
+       chicken.moveUp();
       break;
     case DOWN:
-      // 小雞移動
+      chicken.moveDown();
       break;
     case LEFT:
-      // 小雞移動
+      chicken.moveLeft();
       break;
     case RIGHT:
-      // 小雞移動
+      chicken.moveRight();
       break;
     }
   }
